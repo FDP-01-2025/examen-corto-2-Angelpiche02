@@ -79,21 +79,21 @@ int main(){
             case 1:
             resultado = saldo - (1500 - (1500 * 10)/100);
             cout <<"La compra de la laptop avanzada no fue exitosa"<< endl;
-            cout <<"Le hacen falta "<<resultado<< " para adquirirla"<< endl;
+            cout <<"Le hacen falta "<<resultado<< " para adquirir la laptop avanzada"<< endl;
             return 0;
             break;
 
             case 2:
             resultado = saldo - (1200 - (1200 * 10)/100);
             cout <<"La compra de la tablet pro no fue exitosa"<< endl;
-            cout <<"Le hace falta "<<resultado<<" para adquirirla"<< endl;
+            cout <<"Le hace falta "<<resultado<<" para adquirir la tablet pro"<< endl;
             return 0;
             break;
 
             case 3:
             resultado = saldo - (2000 - (2000 * 10)/100);
             cout <<"La compra de la estacion de trabajo no fue exitosa"<<endl;
-            cout <<"Le hacen falta "<<resultado<<" para adquirirla"<< endl;
+            cout <<"Le hacen falta "<<resultado<<" para adquirir la estacion de trabajo"<< endl;
             return 0;
             break;
 
@@ -117,6 +117,8 @@ int main(){
         cout <<"1. Laptop Avanzada: $1500"<< endl;
         cout <<"2. Tablet Pro: $1200"<< endl;
         cout <<"3. Estacion de Trabajo: $2000"<< endl;
+        
+        return 0;
 
     }
 
